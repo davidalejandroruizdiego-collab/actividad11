@@ -1,7 +1,17 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Actividad11" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Actividad11" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_color_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="android:colorBackground">@color/primary_background_dark</item>
+        <item name="colorSurface">@color/secondary_background_dark</item>
+        <item name="colorOnSurface">@color/primary_text_dark</item>
+
+        <item name="android:textColorPrimary">@color/primary_text_dark</item>
+        <item name="android:textColorSecondary">@color/secondary_text_dark</item>
+
+        <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
 </resources>
